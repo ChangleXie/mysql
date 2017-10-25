@@ -1,0 +1,40 @@
+[2017-10-25 16:07:35,920] {C:/Users/Changle Xie/Desktop/MySQL/logger_slow_query.py:103} WARNING - 
+Context:C:/Users/Changle Xie/Desktop/MySQL/logger_slow_query.py:91 (users)
+SLOW QUERY: INSERT INTO users2 (name) VALUES (%s)
+Parameters: ('xiaoming',)
+Duration: 0.00243199903921
+
+[2017-10-25 16:07:35,921] {C:/Users/Changle Xie/Desktop/MySQL/logger_slow_query.py:103} WARNING - 
+Context:C:/Users/Changle Xie/Desktop/MySQL/logger_slow_query.py:93 (users)
+SLOW QUERY: SELECT users2.id AS users2_id, users2.name AS users2_name 
+FROM users2 
+WHERE users2.id = %s
+Parameters: (1L,)
+Duration: 0.00056493804842
+
+[2017-10-25 16:08:59,726] {C:/Users/Changle Xie/Desktop/MySQL/logger_slow_query.py:103} WARNING - 
+Context:C:/Users/Changle Xie/Desktop/MySQL/logger_slow_query.py:91 (users)
+SLOW QUERY: INSERT INTO users2 (name) VALUES (%s)
+Parameters: ('xiaoming',)
+Duration: 0.000789333021501
+
+[2017-10-25 16:08:59,726] {C:/Users/Changle Xie/Desktop/MySQL/logger_slow_query.py:103} WARNING - 
+Context:C:/Users/Changle Xie/Desktop/MySQL/logger_slow_query.py:93 (users)
+SLOW QUERY: SELECT users2.id AS users2_id, users2.name AS users2_name 
+FROM users2 
+WHERE users2.id = %s
+Parameters: (2L,)
+Duration: 0.000827258932446
+
+[2017-10-25 16:12:51,914] {C:/Users/Changle Xie/Desktop/MySQL/logger_slow_query.py:51} WARNING - Context:C:/Users/Changle Xie/Desktop/MySQL/logger_slow_query.py:40 (users)
+SLOW QUERY: INSERT INTO users2 (name) VALUES (%s)
+Parameters:('xiaoming',)
+Duration:0.00756977478725
+
+[2017-10-25 16:12:51,914] {C:/Users/Changle Xie/Desktop/MySQL/logger_slow_query.py:51} WARNING - Context:C:/Users/Changle Xie/Desktop/MySQL/logger_slow_query.py:42 (users)
+SLOW QUERY: SELECT users2.id AS users2_id, users2.name AS users2_name 
+FROM users2 
+WHERE users2.id = %s
+Parameters:(1L,)
+Duration:0.00034014801377
+
